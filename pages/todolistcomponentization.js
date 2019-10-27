@@ -54,15 +54,13 @@ export default {
       if (value.action == 'delete') {
         this.deleteItemList(value)
       }
-      if (value.action == 'changeState') {
+      if (value.action == 'toggle') {
         this.changeStateItemList(value)
       }
     },
     deleteItemList(value) {
       this.itemsList.map((i, k) => {
         if (i.id == value.id) {
-          console.log(i);
-          console.log(k);
           this.itemsList.splice(k, 1)
         }
       })

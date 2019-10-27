@@ -6,7 +6,7 @@
       <button @click="actionItemList('delete', item.id, item.status)">
         -
       </button>
-      <button @click="actionItemList('changeState', item.id, item.status == 1 ? '2' : '1')">
+      <button @click="actionItemList('toggle', item.id, item.status == 1 ? '2' : '1')">
         v
       </button>
     </span>
