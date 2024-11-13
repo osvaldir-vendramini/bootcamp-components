@@ -2,7 +2,7 @@
   "name": "todolist-rentcars",
   "version": "1.0.0",
   "description": "To-do List BootCamp Rentcars.com",
-  "author": "Maicon Sanson",
+  "author": "Osvaldir Vendramini",
   "private": true,
   "scripts": {
     "dev": "nuxt",
